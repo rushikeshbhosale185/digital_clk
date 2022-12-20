@@ -86,9 +86,8 @@ function setAlarm() {
     function wP() {
         let afterW = parseInt(wake) + 1;
         if (wake < 12) {
-            if (wake < 11)
-                return wake + "AM - " + afterW + "AM"
-            else return wake + "AM - " + afterW + "PM"
+            if (wake < 11) return wake + "AM - " + afterW + "AM";
+            else return wake + "AM - " + afterW + "PM";
         }
         else {
             afterW = afterW - 12;
@@ -102,16 +101,15 @@ function setAlarm() {
     function lP() {
         let afterL = parseInt(lunch) + 1;
         if (lunch < 12) {
-            if (lunch < 11)
-                return lunch + "AM - " + afterL + "AM"
-            else return lunch + "AM - " + afterL + "PM"
+            if (lunch < 11) return lunch + "PM - " + afterL + "PM";
+            else return lunch + "PM - " + afterL + "PM";
         }
         else {
             afterL = afterL - 12;
             lunch = lunch - 12;
             if (lunch < 11)
                 return lunch + "PM - " + afterL + "PM";
-            else return lunch + "PM - " + afterL + "AM";
+            else return lunch + "PM - " + afterL + "PM";
         }
     }
 
@@ -119,15 +117,15 @@ function setAlarm() {
         let afterN = parseInt(nap) + 1;
         if (nap < 12) {
             if (nap < 11)
-                return nap + "AM - " + afterN + "AM";
-            else return nap + "AM - " + afterN + "PM";
+                return nap + "PM - " + afterN + "PM";
+            else return nap + "PM - " + afterN + "PM";
         }
         else {
             afterN = afterN - 12;
             nap = nap - 12;
             if (nap < 11)
                 return nap + "PM - " + afterN + "PM";
-            else return nap + "PM - " + afterN + "AM";
+            else return nap + "PM - " + afterN + "PM";
         }
     }
 
@@ -135,15 +133,15 @@ function setAlarm() {
         let afternT = parseInt(night) + 1;
         if (night < 12) {
             if (night < 11)
-                return night + "AM - " + afternT + "AM"
-            else return night + "AM - " + afternT + "PM"
+                return night + "PM - " + afternT + "PM"
+            else return night + "PM - " + afternT + "PM"
         }
         else {
             afternT = afternT - 12;
             night = night - 12;
             if (night < 11)
                 return night + "PM - " + afternT + "PM";
-            else return night + "PM - " + afternT + "AM";
+            else return night + "PM - " + afternT + "PM";
         }
     }
     document.getElementById("wakeT").innerText = wP();
