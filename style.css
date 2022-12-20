@@ -303,7 +303,8 @@
     .word{
         font-size: xx-large;
         font-weight: bolder;
-         top: -30px;
+        position: relative;
+        top: -30px;
         left: -100px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
