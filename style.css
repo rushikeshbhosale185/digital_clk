@@ -1,14 +1,16 @@
-@media (min-width:721px){
-    body{
+@media (min-width:721px) {
+    body {
         background-color: #3D087B;
     }
-    .main{
+
+    .main {
         display: flex;
         justify-content: center;
-        background-color:#3D087B ;
-        
+        background-color: #3D087B;
+
     }
-    .left{
+
+    .left {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -17,28 +19,35 @@
         box-sizing: border-box;
         padding-left: 13vw;
         line-height: 1vw;
-        background-color:#3D087B ;
-        
+        background-color: #3D087B;
+
     }
-    .a1{
+
+    .a1 {
         display: flex;
         padding: 0px;
         margin: 0px;
     }
-    
-    .main{
+
+    .main {
         display: flex;
         justify-content: space-between;
     }
-    #time{
+
+    #time {
         display: flex;
     }
-    
-    #clock{
+
+    #clock {
         margin: 1vw;
         overflow: hidden;
+        border: 2px dotted aqua;
+        border-radius: 12px;
+        padding: 1vw;
+
     }
-    #routine{
+
+    #routine {
         font-family: 'Manrope', sans-serif;
         display: flex;
         flex-direction: column;
@@ -51,44 +60,52 @@
         width: 35vw;
         margin: 1vw;
         border-radius: 1vw;
+        border: 2px solid rgb(252, 2, 2);
         line-height: 1.1vw;
         color: #3D087B;
         margin-bottom: 0px;
         margin-top: 0px;
         font-size: 18px;
     }
-    .selText{
+
+    .selText {
         font-family: 'Manrope', sans-serif;
         color: #3D087BDE;
     }
+
     option {
         color: black;
     }
-    select{
-        color:black;
+
+    select {
+        color: black;
     }
-    .stick{
+
+    .stick {
         position: relative;
         left: .8vw;
         height: 3vw;
         font-size: 3vw;
         color: #C2C2C2;
     }
-    .a1{
+
+    .a1 {
         align-items: center;
         justify-content: space-between;
         position: relative;
         top: -.6vw;
     }
-    .sel{
+
+    .sel {
         width: 15vw;
         height: 2vw;
         position: relative;
-        
+
         border: #EDEDED 1px solid;
-    
+
     }
-    #gm{
+
+    #gm {
         font-family: 'Fredoka One', cursive;
         background-color: #56189cde;
         box-sizing: border-box;
@@ -98,22 +115,27 @@
         margin: 1vw;
         margin-bottom: .5vw;
     }
-    #text{
+
+    #text {
         opacity: 100%;
         color: white;
         font-size: 2.2vw;
         line-height: 2vw;
     }
-    #time{
+
+    #time {
         margin: 1vw;
-    
+
     }
-    #bottomA{
+
+    #bottomA {
         display: flex;
         align-items: center;
-  
+
+
     }
-    .button{
+
+    .button {
         position: relative;
         bottom: 2vw;
         border: none;
@@ -124,26 +146,29 @@
         justify-content: center;
         box-sizing: border-box;
         font-size: 2.5vw;
-        width: 18vw;
-        height: 3vw;
+        width: 15vw;
+        height: 8vh;
         font-family: 'Manrope', sans-serif;
         background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
-       
+
     }
-    .button:hover{
+
+    .button:hover {
         border-radius: 5px;
         font-size: 2.5vw;
-        padding: 0vw;
-        margin-right: 1vw;
+        /* padding: 0vw; */
+        /* margin-right: 1vw; */
         cursor: pointer;
         color: rgb(252, 3, 198);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 3vw;
-        width: 19vw;
-        height: 4vw;
-        text-shadow: -2px 5px 25px rgb(247, 4, 4);
+        font-size: 2.8vw;
+        width: 18vw;
+        height: 10vh;
+        text-shadow: -2px 5px 25px rgb(28, 4, 247);
+        background-color: #c5fa07;
     }
-    #bottomB{
+
+    #bottomB {
         background-color: #56189cde;
         display: flex;
         align-items: center;
@@ -160,13 +185,15 @@
         font-size: .9vw;
         line-height: 1.5vw;
     }
-    .right{
+
+    .right {
         width: 50vw;
         margin-left: 1vw;
         padding-left: 1vw;
         box-sizing: border-box;
     }
-    #b1{
+
+    #b1 {
         box-sizing: border-box;
         padding: 2vw;
         width: 35vw;
@@ -180,7 +207,8 @@
         border-radius: 1vw;
         font-family: 'Manrope', sans-serif;
     }
-    #b2{
+
+    #b2 {
         width: 30vw;
         height: 3vw;
         background-color: white;
@@ -190,7 +218,8 @@
         z-index: 2;
         border-radius: .7vw;
     }
-    #b3{
+
+    #b3 {
         width: 25vw;
         height: 2vw;
         background-color: white;
@@ -201,7 +230,8 @@
         z-index: 1;
         border-radius: .5vw;
     }
-    #t{
+
+    #t {
         color: #3D087B;
         display: flex;
         justify-content: center;
@@ -210,11 +240,13 @@
         width: 5vw;
         box-sizing: border-box;
     }
-    .bigT{
+
+    .bigT {
         font-size: 3vw;
-        
+
     }
-    .pT{
+
+    .pT {
         color: #3D087B;
         font-family: 'Manrope', sans-serif;
         font-weight: lighter;
@@ -229,12 +261,14 @@
         margin-left: .5vw;
         margin-right: .5vw;
     }
-    .pTd{
+
+    .pTd {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #meridian{
+
+    #meridian {
         box-sizing: border-box;
         display: flex;
         font-size: 3vw;
@@ -246,8 +280,10 @@
         justify-content: center;
         border-radius: 3px;
     }
-    #grab{
-        font-family: 'Fredoka One', cursive;
+
+    #grab {
+        /* font-family: 'Fredoka One', cursive; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
         font-weight: bold;
         letter-spacing: 1px;
         font-size: 1.6vw;
@@ -266,81 +302,92 @@
         margin-bottom: 4vw;
         color: #8E53F0;
     }
-    #img{
+
+    #img {
         display: inline-block;
         box-sizing: border-box;
     }
-    #imgM{  
+
+    #imgM {
         width: 32vw;
         position: relative;
         top: -12px;
     }
-    .word{
-        font-size: xx-large;
-        color: white;
-        position: relative;
-        top: -50px;
-        left: -100px;
-        font-weight: bolder;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    img{
+
+    img {
         border-radius: 15px;
     }
+
+    #bottomB {
+        /* box-sizing: content-box; */
+        border-radius: 12px;
+        border: 2px dashed lawngreen;
+    }
 }
-@media (max-width:720px){
-    body{
+
+/* @media (min-width:720px){
+    .word{
+        font-size: xx-large;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        position: relative;
+        top: -4vh;
+        left: 12vw;
+    }
+} */
+@media (max-width:720px) {
+    body {
         background-color: #3D087B;
     }
 
-    .main{
-        background-color:#3D087B;
+    .main {
+        background-color: #3D087B;
     }
-    #clock{
+
+    #clock {
         background-color: #3D087B;
         width: 55vw;
     }
-    .word{
-        font-size: xx-large;
-        font-weight: bolder;
-        position: relative;
-        top: -30px;
-        left: -100px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-    }
-    .fHalf{
+
+    .fHalf {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    #routine{
+
+    #routine {
         border-radius: 2vw;
         box-sizing: border-box;
         background-color: white;
         margin: 3vw 3vw 3vw 3vw;
         width: 90vw;
-        font-family: Manrope, Regular;
+        /* font-family: Manrope, Regular; */
+        font-family: fantasy;
         color: #3D087B;
         padding: 2vw;
     }
-    .a1{
+
+    .a1 {
         display: flex;
         justify-content: space-between;
     }
-    .stick{
-        padding-left:3vw ;
+
+    .stick {
+        padding-left: 3vw;
         height: 3vw;
     }
-    .sel{
+
+    .sel {
         position: relative;
         top: 3vw;
         width: 40vw;
         height: 6vw;
         border: #EDEDED 1px solid;
     }
-    #gm{
+
+    #gm {
         font-family: 'Fredoka One', cursive;
         font-size: 5vw;
         background-color: #974bb8;
@@ -354,7 +401,8 @@
         justify-content: center;
 
     }
-    #bottomA{
+
+    #bottomA {
         display: flex;
         align-items: center;
         margin: 3vw 3vw 3vw 3vw;
@@ -364,7 +412,8 @@
         box-sizing: border-box;
         background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
     }
-    .button{
+
+    .button {
         display: flex;
         border: none;
         margin-right: 1vw;
@@ -377,7 +426,8 @@
         font-size: 7vw;
         background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
     }
-    #bottomB{
+
+    #bottomB {
         background-color: #974bb8;
         display: flex;
         align-items: center;
@@ -389,7 +439,8 @@
         margin: 3vw;
         letter-spacing: 2px;
     }
-    #b1{
+
+    #b1 {
         box-sizing: border-box;
         padding: 2vw;
         width: 90vw;
@@ -403,7 +454,8 @@
         border-radius: 1vw;
         margin: 2vw;
     }
-    #b2{
+
+    #b2 {
         width: 75vw;
         height: 3vw;
         background-color: white;
@@ -414,7 +466,8 @@
         border-radius: .7vw;
         margin: 1vw;
     }
-    #b3{
+
+    #b3 {
         width: 50vw;
         height: 2vw;
         background-color: white;
@@ -425,10 +478,12 @@
         z-index: 1;
         border-radius: .5vw;
     }
-    #t{
+
+    #t {
         display: none;
     }
-    .pT{
+
+    .pT {
         color: #3D087B;
         box-sizing: border-box;
         display: flex;
@@ -440,12 +495,14 @@
         margin-left: .5vw;
         margin-right: .5vw;
     }
-    .pTd{
+
+    .pTd {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #wT{
+
+    #wT {
         font-family: 'Manrope', sans-serif;
         color: #5F0089;
         font-size: 10vw;
@@ -459,7 +516,8 @@
         justify-content: center;
         border-radius: 3px;
     }
-    #grab{
+
+    #grab {
         font-family: 'Fredoka One', cursive;
         font-size: large;
         height: 10vw;
@@ -475,27 +533,33 @@
         margin-bottom: 4vw;
         color: #8E53F0;
     }
-    #img{
+
+    #img {
         display: inline-block;
         box-sizing: border-box;
         border-radius: 15px;
     }
-    #imgM{  
+
+    #imgM {
         width: 90vw;
         margin: 2vw;
     }
-    .selText{
+
+    .selText {
         font-family: 'Manrope', sans-serif;
         color: #3D087BDE;
     }
+
     option {
         color: rgb(176, 174, 174);
     }
+
     select {
         color: rgb(105, 103, 103);
     }
-    .bigT{
+
+    .bigT {
         font-size: 10vw;
-        
+
     }
 }
